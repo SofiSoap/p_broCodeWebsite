@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!-- we need closing and opening html tags, everything will be within here -->
+<html>
+
+<head>
+    <title> My Website</title>
+</head>
+
+<Body>
+    <!-- Heading h1, h2, and so forth -->
+    <h1> Welcome to My Website </h1>
+    <h2>Links Below</h2>
+
+    <!-- Links-->
+    <a href = "https://www.google.com" target=_blank title = "this will take you to google "> Google</a>
+    <br>
+    <a href = "page2.html" target =_self title="Will take you to page 2">Page 2</a>
+    <br>
+
+    <!--we can also send email with href attribute aswell-->
+    <a href = "mailto:fake123@gmail.com" target = self >Email me</a>
+    <br>
+
+    <!-- Images -->
+    <br>
+    <a href = "https://en.wikipedia.org/wiki/Flower">
+        <img src="/images/white flower.avif" height = 100 title="white flower">
+    </a>
+
+    <!-- audio -->
+    <audio controls src = "Wish You'd Never Left - TrackTribe.mp3"></audio>
+    <!-- List -->
+    <h2>Types of Drinks</h2>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black Tea</li>
+                <li>Matcha Tea</li>
+            </ul>
+        </li>
+        
+    </ul>
+    <h2>How to make tea</h2>
+    <ol>
+        <li>Boil water</li>
+        <li>Choose Tea</li>
+        <li>Step tea in hot water</li>
+        <li>Wait 3 minutes</li>
+        <li>Enjoy!</li>
+    </ol>
+
+    <!-- Table -->
+    <h2>Table</h2>
+    <table bgcolor = "Black">
+        <tr bgcolor = "grey" align="center">
+            <th width ="100">Sunday</th>
+            <th width ="100">Monday</th>
+            <th width ="100">Tuesday</th>
+            <th width ="100">Wednesday</th>
+            <th width ="100">Thursday</th>
+            <th width ="100">Friday</th>
+            <th width ="100">Saturday</th>
+        </tr>
+        <tr bgcolor = "lightgrey" align="center">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+
+    <!-- Span and Div -->
+    <!-- Span = adds markup to text or portion of a document -->
+    <!-- Div = defines a division of a document -->
+    <div style = "background-color: bisque;">
+        <p>Lorem <span style ="color:red"> dolor sit amet </span> consectetur adipisicing elit. 
+            Esse quibusdam similique ipsam! Nesciunt consequatur repellat rem, 
+            tenetur maiores inventore itaque officiis 
+            corporis dicta nulla placeat ea, numquam alias quod praesentium.</p>
+
+        <p>Lorem dolor sit amet </span> consectetur adipisicing elit. 
+        Esse quibusdam similique ipsam! Nesciunt consequatur repellat rem, 
+        tenetur maiores inventore itaque officiis 
+        corporis dicta nulla placeat ea, numquam alias quod praesentium.</p>
+
+    </div>
+
+    <!-- Iframe = embed content ffrom another source into an html document 
+        ex. used for ads, used in hacking techniques -->
+    <iframe style = "border:0" src="/ad.html" width ="400" height = "200"></iframe>
+
+    <!--Button-->
+    <a href = "https://www.google.com">
+        <button style = "background-color: gray; color: #00ff00; border-radius: 5px" >Click Me </button>
+    </a>
+    
+</Body>
+
+</html>
